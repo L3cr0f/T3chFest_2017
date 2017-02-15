@@ -5,10 +5,6 @@ import java.text.DecimalFormat;
 
 public class Reto_4 {
 
-	// 10714285714285714
-	// Period = 4
-	// i = 10
-
 	public static void main(String[] args) {
 		Reto_4 reto_4 = new Reto_4();
 		
