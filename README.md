@@ -32,15 +32,38 @@ Input format:</br>
 
 Output format:</br>
   - An array (size = number of cities - 1) in which each position points out the number of cities from that distance to the capital (eg: {1, 3, 0, 0} = there is one city with a distance equal to 1, three cities with distance equal to 2 and there is no any city with a distance equal to three).
-  
+
 For example:</br>
   - {9, 1, 4, 9, 0, 4, 8, 9, 0, 1} = {1, 3, 2, 3, 0, 0, 0, 0, 0}
   - {0, 0, 0, 0, 1} = {3, 1, 0, 0}
 
 <b><h3>4th Challenge</h3></b>
+Consisted in developing a program that shows the result of fractions in the following format:</b>
+  - 1.333333 = 1.(3)
+  - 0.583333 = 0.58(3)
+  - 1.500000 = 1.5
+  - 2.000000 = 2
+  - 0.074074 = 0.(074)
+  - 0.999999 = 1
 
+For example:</b>
+  - 12/3 = 4
+  - 1/2 = 0.5
+  - 5/4 = 1.25
+  - 1/3 = 0.(3)
+  - 1/7 = 0.(142857)
+  - 3/28 = 0.10(714285)
 
 <b><h3>5th Challenge</h3></b>
+Consisted in developing a program that counts the minimum hops (the distance of the hop is given) that a monkey have to perform to cross a river through some rocks, which emerge from the water at a given time. If the monkey cannot cross the river the program should return a "-1".</b>
+Input format:</b>
+  - An array A that contains the time when a rock emerges. The indexes of the array represent the position of each rock. If one of the rocks contains the number "-1", the rock never emerges (eg: A [2] = -1, the rock number 2 never emerges).
+  - An integer that indicates the maximum distance the monkey can hop.
 
+For example:</b>
+  - {1, -1, 0, 2, 3, 5} = 2
+  - {3, 2, 1} = 3
+  - {1, 2, 3, 4, -1, -1, -1} = -1
+  - {-1, 0, 3, 1, 2, 5, 4, -1, 6, 7} = 4
 
 <b><h3>6th Challenge</h3></b>
