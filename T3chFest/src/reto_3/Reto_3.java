@@ -6,13 +6,11 @@ public class Reto_3 {
 
 		Reto_3 reto_3 = new Reto_3();
 		int[] cities_1 = { 9, 1, 4, 9, 0, 4, 8, 9, 0, 1 };
-		int[] cities_2 = { 0, 0, 0, 0, 1 };
 
 		int [] solution = reto_3.solution(cities_1);
 		for (int i = 0; i < solution.length; i++) {
 			System.out.println(solution[i]);
 		}
-		System.out.println(reto_3.solution(cities_2));
 	}
 
 	public int[] solution(int[] T) {
