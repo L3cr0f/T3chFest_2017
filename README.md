@@ -67,3 +67,13 @@ For example:</b>
   - {-1, 0, 3, 1, 2, 5, 4, -1, 6, 7} = 4
 
 <b><h3>6th Challenge</h3></b>
+Consisted in implementing the following expression:</b>
+    x = (-2)^(A[0]) + (-2)^(A[1]) + ... + (-2)^(A[n - 1])</b>
+Where "x" is the solution, "A" an array of numbers and "n" the length of "A".</b>
+If the value of the solution is greater than 9999999 or lower than -9999999 (7 digits maximum), then the program must show -1 as a solution.</b>
+
+For example:</b>
+  - {5, 4, 7} = -144
+  - {100000, 25} = -1
+  - {3, 4, 10 , 5, 3} = 992
+  
